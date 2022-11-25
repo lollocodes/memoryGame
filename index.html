@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <h1>Memory</h1>
+    <div class="welcome-view">
+      <label for="">Spelare 1</label>
+      <input type="text" id="playerOneInput" />
+      <label for="">Spelare 2</label>
+      <input type="text" id="playerTwoInput" />
+      <button id="startGameBtn">Starta spelet</button>
+    </div>
+
+    <div class="playground">
+      <div class="result-container">
+        <span id="playerOne"></span>
+        <span id="playerTwo"></span>
+      </div>
+      <h2 class="player-turn-lbl"></h2>
+      <div class="card-container"></div>
+      <div class="reset-container"></div>
+    </div>
+
+    <script src="cardData.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
